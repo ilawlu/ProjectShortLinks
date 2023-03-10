@@ -28,7 +28,7 @@
 <br>
 <p>5. Прописать Mail в .env</p>
 <br>
-<p>6. Создаем ДБ в phpmyadmin с именем, которое мы дали в пугкте 4</p>
+<p>6. Создаем ДБ в phpmyadmin с именем, которое мы дали в пункте 4</p>
 <br>
 <p>5. Прописать в консоль <strong>php artisan migrate</strong> и после миграции <strong>php artisan serve</strong></p>
 <br>
