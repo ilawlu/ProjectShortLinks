@@ -15,6 +15,20 @@
 <br>
 <p>Проект реализован с помощью OpenServer, содержит в себе базу данных (ShortLink), и таблицу Link.</p>
 <p>В таблице имеются следующие поля: id, source_link (string, 255), link_key (string, 20).</p>
-<p>Для запуска проекта лучше использовать OpenServer. После установки создать базу данных ShortLink (Можно назвать по-другому, но тогда нужно изменить конфигурационный файл .env, где нужно вписать название таблицы, на 12 строке) и выполнить команду <strong>php artisan migrate</strong></p>
-<p>После выполнения миграции, нужно запустить проект командой <strong>php artisan serve</strong></p>
-<p>После запуска перейти на страницу /links</p>
+<br>
+<h1>Для запуска проекта нужно:</h1>
+<br>
+<p>1. <strong>composer update</strong></p>
+<br>
+<p>2. изменить .env.example на .env</p>
+<br>
+<p>3. Прописать в коносоли <strong>php artisan key:generate</strong> </p>
+<br>
+<p>4. Дать имя дб в .env</p>
+<br>
+<p>5. Прописать Mail в .env</p>
+<br>
+<p>6. Создаем ДБ в phpmyadmin с именем, которое мы дали в пугкте 4</p>
+<br>
+<p>5. Прописать в консоль <strong>php artisan migrate</strong> и после миграции <strong>php artisan serve</strong></p>
+<br>
